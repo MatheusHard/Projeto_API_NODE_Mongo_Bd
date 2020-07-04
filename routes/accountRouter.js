@@ -239,7 +239,7 @@ app.post("/account/menores_saldos", async (req, res) => {
     }
   });
 
-/*12. Crie um endpoint que irá transferir o cliente com maior saldo em conta de cada agência para
+/*12) Crie um endpoint que irá transferir o cliente com maior saldo em conta de cada agência para
 a agência private agencia=99. O endpoint deverá retornar a lista dos clientes da agencia private.*/
 
 app.post("/account/vips", async (req, res) => {
